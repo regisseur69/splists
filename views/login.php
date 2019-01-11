@@ -1,11 +1,12 @@
 <?php 
     session_start();
-    $SESSION['page'] = 'login';
+    $_SESSION['page'] = 'login';
 ?>
 
 <?php include('../partials/_header.php'); ?>
 
-  <!--contenu de index
+
+   <h1>page de conexion</h1>
 
 <?php include('../partials/_footer.php'); ?>
 
